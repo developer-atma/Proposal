@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Nav Bar Styling */
+nav{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* justify-content: center; */
+}
+nav .logo,
+nav .list-item{
+    font-size: xx-large;
+    font-weight: 700;
+}
+.list-item a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+    width: max-content;
+    height: max-content;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+}
+.list-item a:hover{
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(236, 141, 157);
+    border: 2px solid white;
+
+}
+
+.list{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    list-style: none;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 199, 208);
+}
+
+/* Proposal Styling */
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink
+}
+.proposal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.response-btn{
+    display: flex;
+    gap: 30px;
+    
+}
+video{
+    box-shadow: 3px 3px 30px ;
+}
+
+.response-btn a{
+    width: 130px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: palevioletred;
+    font-size: x-large;
+    font-weight: bold;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-display:optional;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    transition: 0.4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.response-btn a:hover{
+    color: rgb(193, 124, 136);
+    background: white;
+    box-shadow: 3px 3px 20px black;
+}

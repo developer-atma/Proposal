@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#move-random{
+    transition: 0.1s ;
+}
+
+#move-random:hover{
+    transform: translate(200px);
+    width: 130px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: palevioletred;
+    font-size: x-large;
+    font-weight: bold;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-display:optional;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    box-shadow: none;
+}
